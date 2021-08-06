@@ -41,7 +41,6 @@ nav ul {
     padding: 2rem 0 2rem 0;
     font-size: 1.6rem;
     margin: 0 auto;
-    /* background-color: cadetblue; */
     justify-content: center;
     align-items: center;
 }
@@ -94,23 +93,21 @@ nav ul h1 {
     cursor: pointer;
     margin-top: 3rem;
     z-index: 5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 /* how section */
 
 .how {
-    z-index: 2;
-    margin-bottom: 10rem;
+    margin: 7rem 0 12rem 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .how-cards {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -118,7 +115,7 @@ nav ul h1 {
 .how-cards div {
     background-color: #67a37a3d;
     margin: 1vw;
-    padding: 5rem 2rem;
+    padding: 8rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,9 +126,13 @@ nav ul h1 {
 }
 
 .how h2 {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     text-align: center;
-    padding: 10rem 0 4rem 0;
+    padding: 2rem 0 7rem 0;
+}
+
+.how-cards img {
+    height: 10rem;
 }
 
 .how-cards h3 {
@@ -141,11 +142,15 @@ nav ul h1 {
 
 .how-cards p {
     font-size: 1.8rem;
+    line-height: 1.8;
     padding: 0 2rem 2rem 2rem;
 }
 
 .how-cards button {
     background-color: #7FE39F;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-weight: 500;
     padding: 2rem 4rem;
     margin-top: 2rem;
     border: none;
@@ -157,26 +162,26 @@ nav ul h1 {
 .intro {
     display: flex;
     flex-wrap: wrap;
-    height: 60rem;
 }
 
 .intro-img {
-    flex: 1 1 30rem;
+    flex: 1 1 40rem;
     background-image: url(../images/plant-1.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 25rem;
+    min-height: 35rem;
 }
 
 .intro-text {
-    flex: 1 1 30rem;
+    flex: 1 1 40rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     background-color: #67A37A;
-    padding-left: 8vw;
+    padding: 10rem 0 10rem 8vw;
+    
 }
 
 .intro-text h2 {
@@ -198,4 +203,168 @@ nav ul h1 {
     color: black;
     padding: 2rem 5rem;
     margin-top: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* blog post */
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0;
+    
+}
+
+.blog-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blog-cards div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 55rem;
+    background-color: #1f4d2d62;
+    flex: 1 1 50rem;
+    margin: 1vw;
+    color: white;
+}
+
+.blog h2 {
+    font-size: 3.8rem;
+    margin: 0 auto;
+    padding: 2rem 0 5rem 0;
+}
+
+.blog button {
+    margin: 5rem auto 0 auto;
+    background-color: #7fe39f8f;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 25rem;
+    border: none;
+    padding: 3rem 3rem;
+}
+
+.blog-cards h3 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 300;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 15rem;
+    padding: 10rem 4rem;
+}
+
+.blog-card1 figure {
+    background-image: url(../images/plant-7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 19rem;
+    width: 100%;
+    z-index: -1;
+}
+.blog-card2 figure {
+    background-image: url(../images/plant-8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 19rem;
+    width: 100%;
+    z-index: -1;
+}
+.blog-card3 figure {
+    background-image: url(../images/plant-10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 19rem;
+    width: 100%;
+    z-index: -1;
+}
+.blog-card4 figure {
+    background-image: url(../images/plant-9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 19rem;
+    width: 100%;
+    z-index: -1;
+}
+
+/* sign up form */
+
+.signup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.signup-img {
+    flex: 1 1 40rem;
+    background-image: url(../images/plant-4.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 35rem;
+}
+
+.signup-text {
+    flex: 1 1 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #67A37A;
+    padding: 10rem 0 10rem 8vw;
+    
+}
+
+.signup-text h2 {
+    padding: 2rem 0 2rem 0;
+    font-size: 3rem;
+}
+
+.signup-text h3 {
+    padding: 0rem 0 1rem 0;
+    font-size: 1.8rem;
+}
+
+.signup-text p {
+    padding: 1.5rem 0 1.5rem 0;
+    font-size: 1.6rem;
+    text-align: left;
+    max-width: 80%;
+    line-height: 1.6;
+}
+
+.signup-text form {
+    margin-top: 3rem;
+}
+
+.signup-text form input {
+    border: none;
+    padding: 1rem 1rem;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-right: 0.2rem;
+}
+
+.signup-text form button {
+    border: none;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    background-color: #a8f7c1;
 }
