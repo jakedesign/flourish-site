@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* nav bar */
+
+nav ul {
+    display: flex;
+    min-height: 7vh;
+    padding: 2rem 0 2rem 0;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    /* background-color: cadetblue; */
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 3rem;
+}
+
+nav ul h1 {
+    padding: 0 2rem;
+}
+
+/* hero section */
+
+.hero {
+    min-height: 93vh;
+    background-image: url(../images/plant-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+.layer {
+    background-color: rgba(2, 75, 39, 0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.hero h2 {
+    text-align: center;
+    line-height: 1.4;
+    font-size: 7.2rem;
+    font-weight: 800;
+    margin: 0 0 7rem 0;
+    max-width: 70vw;
+    z-index: 5;
+}
+
+.hero button {
+    background-color: #A8F7C1;
+    border: none;
+    padding: 2.5rem 6rem;
+    cursor: pointer;
+    margin-top: 3rem;
+    z-index: 5;
+}
+
+/* how section */
+
+.how {
+    z-index: 2;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.how-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.how-cards div {
+    background-color: #67a37a3d;
+    margin: 1vw;
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 35rem;
+    max-width: 50rem;
+}
+
+.how h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 10rem 0 4rem 0;
+}
+
+.how-cards h3 {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.how-cards p {
+    font-size: 1.8rem;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.how-cards button {
+    background-color: #7FE39F;
+    padding: 2rem 4rem;
+    margin-top: 2rem;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+/* intro section */
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    height: 60rem;
+}
+
+.intro-img {
+    flex: 1 1 30rem;
+    background-image: url(../images/plant-1.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 25rem;
+}
+
+.intro-text {
+    flex: 1 1 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #67A37A;
+    padding-left: 8vw;
+}
+
+.intro-text h2 {
+    padding: 2rem 0 2rem 0;
+    font-size: 3rem;
+}
+
+.intro-text p {
+    padding: 1.5rem 0 1.5rem 0;
+    font-size: 1.6rem;
+    text-align: left;
+    max-width: 80%;
+    line-height: 1.5;
+}
+
+.intro-text button {
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    padding: 2rem 5rem;
+    margin-top: 5rem;
+}
