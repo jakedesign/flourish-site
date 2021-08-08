@@ -229,9 +229,9 @@ nav ul h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 55rem;
+    max-width: 100%;
     background-color: #1f4d2d62;
-    flex: 1 1 50rem;
+    flex: 1 1 30rem;
     margin: 1vw;
     color: white;
 }
@@ -361,7 +361,7 @@ nav ul h1 {
 
 .signup-text form button {
     border: none;
-    padding: 1rem 1rem;
+    padding: 1rem 3rem;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
